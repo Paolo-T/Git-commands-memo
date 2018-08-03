@@ -3,8 +3,10 @@
 
 
 # Git commands memo
+
 | COMMAND                                         | DESCRIPTION                                             |
 | :---------------------------------------------- | :------------------------------------------------------ |
+|                                                 |                                                         |
 | git init                                        | Initialising git in a folder                            |
 | rm -rf .git                                     | Undo Initialising git in a folder                       |
 | git clone                                       | Makes a complete copy of the repo locally               |
