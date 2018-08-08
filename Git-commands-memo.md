@@ -13,7 +13,7 @@
 | git remote add origin [repository url]          | Adds link to remote repo                                |
 | git add [file name]                             | Adds file to staging                                    |
 | git add . / git add —all                        | Adds all the files to staging                           |
-| git rm -r --cached [folder/file/name]           | Delets folde/file from remote repository
+| git rm -r --cached [folder/file-name]           | Delets folde/file from remote repository
 | git commit  -m “[message]”                      | Commits file with message                               |
 | git  push -u origin master                      | First commit to a repo. -u allows to track changes      |
 | git branch [branch name]                        | Creates a new branch                                    |
