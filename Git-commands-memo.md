@@ -18,9 +18,9 @@
 | git rm -r --cached [folder/file-name]           | Delets folder/file from remote repository               |
 |                                                 |                                                         |
 | **Fetch/pull**                                  |                                                         |  
-| git fetch origin                                |                                                         |
+| git fetch origin                                | Downloads remote content without erasing local          |
 | git checkout -b [local_feature_branch]          | Creates a local branch for the fetched content          |  
-| git diff                                        |                                                         |
+| git diff                                        | Lists diffences between remote and local repo           |
 |                                                 |                                                         |
 | **Braching**                                    |                                                         |
 | git branch -D [branch name]                     | Delete branch                                           |
@@ -35,7 +35,7 @@
 | git commit -am “[message]”                      | git add + git commit -m                                 |
 | git  push -u origin master                      | First commit to a repo. -u allows to track changes      |
 |                                                 |                                                         |
-| **Useful**                                     |                                                         |
+| **Useful**                                      |                                                         |
 | git alias                                       | Creates command shortcut                                |
 | git log                                         | Inspecting                                              |
 
