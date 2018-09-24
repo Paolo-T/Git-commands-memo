@@ -21,8 +21,8 @@
 | git  push -u origin master                      | First commit to a repo. -u allows to track changes      |
 |                                                 |                                                         |
 | **Fetch/pull**                                  |                                                         |   
-| git fetch origin                                |                                                         |      
-| git diff                                        |                                                         |
+| git fetch origin                                |                                                         |
+| git checkout -b [local_feature_branch]          | Creates a local branch for the fetched content          |       | git diff                                        |                                                         |
 |                                                 |                                                         |
  **Braching**                                     |                                                         |   
 | git branch -D [branch name]                     | Delete branch                                           |
@@ -31,4 +31,4 @@
 | git checkout [branch name]                      | Moving into a branch                                    |
 |                                                 |                                                         |
 | git alias                                       | Creates command shortcut                                |
-| git log                                         |                                                         |
+| git log                                         | Inspecting                                              |
