@@ -21,7 +21,7 @@
 | git  push -u origin master                      | First commit to a repo. -u allows to track changes      |
 |                                                 |                                                         |
 | **Fetch/pull**                                  |                                                         |   
-| git fetch                                       |                                                         |      
+| git fetch origin                                |                                                         |      
 | git diff                                        |                                                         |
 |                                                 |                                                         |
  **Braching**                                     |                                                         |   
