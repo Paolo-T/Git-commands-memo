@@ -12,7 +12,6 @@
 | git remote add origin [repository url]          | Adds link to remote repo                                |
 | git clone                                       | Makes a complete copy of the repo locally               |
 |                                                 |                                                         |
-|                                                 |                                                         |
 | **Delete**                                      |                                                         |      |                                                 |                                                         | 
 | rm -rf .git                                     | Undo Initialising git in a folder                       |
 | git rm -r --cached [folder/file-name]           | Delets folde/file from remote repository                |
