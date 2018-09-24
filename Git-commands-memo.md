@@ -7,11 +7,13 @@
 | COMMAND                                         | DESCRIPTION                                             |
 | :---------------------------------------------- | :------------------------------------------------------ |
 |                                                 |                                                         |
-|                                                 |                                                         |
+| **create**                                      |                                                         |
 | git init                                        | Initialising git in a folder                            |
 | rm -rf .git                                     | Undo Initialising git in a folder                       |
 | git clone                                       | Makes a complete copy of the repo locally               |
 |                                                 |                                                         |
+|                                                 |                                                         |
+| **Delete**                                      |                                                         |      |                                                 |                                                         | 
 | git remote add origin [repository url]          | Adds link to remote repo                                |
 | git add [file name]                             | Adds file to staging                                    |
 | git add . / git add —all                        | Adds all the files to staging                           |
