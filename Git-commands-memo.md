@@ -32,3 +32,8 @@
 |                                                 |                                                         |
 | git alias                                       | Creates command shortcut                                |
 | git log                                         | Inspecting                                              |
+
+
+
+
+ref: https://www.atlassian.com/git/tutorials/syncing/git-fetch
