@@ -12,7 +12,9 @@
 | git remote add origin [repository url]          | Adds link to remote repo                                |
 | git clone                                       | Makes a complete copy of the repo locally               |
 |                                                 |                                                         |
-| **Delete**                                      |                                                         |       |                                                 |                                                         |       | rm -rf .git                                     | Undo Initialising git in a folder                       |
+| **Delete**                                      |                                                         |  
+| rm -rf .git                                     | Undo Initialising git in a folder                       |
+| git rm                                          | Delets folder/file                                      |
 | git rm -r --cached [folder/file-name]           | Delets folder/file from remote repository               |
 | git add [file name]                             | Adds file to staging                                    |
 | git add . / git add —all                        | Adds all the files to staging                           |
@@ -20,11 +22,12 @@
 | git commit  -m “[message]”                      | Commits file with message                               |
 | git  push -u origin master                      | First commit to a repo. -u allows to track changes      |
 |                                                 |                                                         |
-| **Fetch/pull**                                  |                                                         |   
+| **Fetch/pull**                                  |                                                         |  
 | git fetch origin                                |                                                         |
-| git checkout -b [local_feature_branch]          | Creates a local branch for the fetched content          |       | git diff                                        |                                                         |
+| git checkout -b [local_feature_branch]          | Creates a local branch for the fetched content          |  
+| git diff                                        |                                                         |
 |                                                 |                                                         |
- **Braching**                                     |                                                         |   
+| **Braching**                                    |                                                         |
 | git branch -D [branch name]                     | Delete branch                                           |
 | git log --all --decorate --oneline --graph      | Shows commit history graph                              |
 | git merge [branch name]                         | merges branch into main                                 |
@@ -36,4 +39,4 @@
 
 
 
-ref: https://www.atlassian.com/git/tutorials/syncing/git-fetch
+ref: https://www.atlassian.com/git/tutorials/syncing/git-fetch 
