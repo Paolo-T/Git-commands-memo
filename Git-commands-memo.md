@@ -22,7 +22,8 @@
 | git checkout -b [local_feature_branch]          | Creates a local branch for the fetched content          |  
 | git diff                                        | Lists diffences between remote and local repo           |
 |                                                 |                                                         |
-| **Braching**                                    |                                                         |
+| **Branching**                                   |                                                         |
+| git checkout -b [branch name]                   | Creates branch                                          |
 | git branch -D [branch name]                     | Delete branch                                           |
 | git log --all --decorate --oneline --graph      | Shows commit history graph                              |
 | git merge [branch name]                         | merges branch into main                                 |
@@ -40,5 +41,7 @@
 | git log                                         | Inspecting                                              |
 
 
+
+git checkout -b
 
 ref: https://www.atlassian.com/git/tutorials/syncing/git-fetch 
