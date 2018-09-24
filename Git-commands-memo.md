@@ -7,7 +7,6 @@
 | COMMAND                                         | DESCRIPTION                                             |
 | :---------------------------------------------- | :------------------------------------------------------ |
 |                                                 |                                                         |
-| git alias                                       | Creates command shortcut                                |
 |                                                 |                                                         |
 | git init                                        | Initialising git in a folder                            |
 | rm -rf .git                                     | Undo Initialising git in a folder                       |
@@ -26,3 +25,4 @@
 | git merge [branch name]                         | merges branch into main                                 |
 | git checkout [branch name]                      | Moving into a branch                                    |
 |                                                 |                                                         |
+| git alias                                       | Creates command shortcut                                |
