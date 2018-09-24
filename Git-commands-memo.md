@@ -28,16 +28,16 @@
 | git merge [branch name]                         | merges branch into main                                 |
 | git checkout [branch name]                      | Moving into a branch                                    |
 |                                                 |                                                         |
-| git alias                                       | Creates command shortcut                                |
-| git log                                         | Inspecting                                              |
-|                                                 |                                                         |
 | **Sending**                                     |                                                         |
 | git add [file name]                             | Adds file to staging                                    |
 | git add . / git add —all                        | Adds all the files to staging                           |
 | git commit -m “[message]”                       | Commits file with message                               |
 | git commit -am “[message]”                      | git add + git commit -m                                 |
 | git  push -u origin master                      | First commit to a repo. -u allows to track changes      |
-
+|                                                 |                                                         |
+| **Useful**                                     |                                                         |
+| git alias                                       | Creates command shortcut                                |
+| git log                                         | Inspecting                                              |
 
 
 
