@@ -16,7 +16,7 @@
 | rm -rf .git                                     | Undo Initialising git in a folder                       |
 | git rm                                          | Delets folder/file                                      |
 | git rm -r --cached [folder/file-name]           | Delets folder/file from remote repository               |
-
+|                                                 |                                                         |
 | **Fetch/pull**                                  |                                                         |  
 | git fetch origin                                |                                                         |
 | git checkout -b [local_feature_branch]          | Creates a local branch for the fetched content          |  
