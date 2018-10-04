@@ -12,17 +12,19 @@
 | git remote add origin [repository url]          | Adds link to remote repo                                |
 | git clone                                       | Makes a complete copy of the repo locally               |
 |                                                 |                                                         |
-| **Delete**                                      |                                                         |   
+| **Delete**                                      |                                                         |
 | rm -rf .git                                     | Undo Initialising git in a folder                       |
 | git rm                                          | Delets folder/file                                      |
 | git rm -r --cached [folder/file-name]           | Delets folder/file from remote repository               |
 |                                                 |                                                         |
-| **Fetch/pull**                                  |                                                         |  
+| **Fetch/pull**(checkout remote branch technique)|                                                         |
 | git fetch origin                                | Downloads remote content without erasing local          |
-| git checkout -b [local_feature_branch]          | Creates a local branch for the fetched content          |  
+| git checkout -b [remote_feature_branch]         | Creates a local branch for the fetched content          |
 | git diff                                        | Lists diffences between remote and local repo           |
+| git merge                                       | merges different branches                               |
 |                                                 |                                                         |
 | **Branching**                                   |                                                         |
+| git branch -a                                   | Shows branches and fetched repos                        |
 | git checkout -b [branch name]                   | Creates branch                                          |
 | git branch -D [branch name]                     | Delete branch                                           |
 | git log --all --decorate --oneline --graph      | Shows commit history graph                              |
@@ -44,4 +46,4 @@
 
 git checkout -b
 
-ref: https://www.atlassian.com/git/tutorials/syncing/git-fetch 
+ref: https://www.atlassian.com/git/tutorials/syncing/git-fetch
