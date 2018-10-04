@@ -17,7 +17,7 @@
 | git rm                                          | Delets folder/file                                      |
 | git rm -r --cached [folder/file-name]           | Delets folder/file from remote repository               |
 |                                                 |                                                         |
-| **Fetch/pull**(checkout remote branch technique)|                                                         |
+| **Fetch/pull** (checkout remote branch technique)|                                                         |
 | git fetch origin                                | Downloads remote content without erasing local          |
 | git checkout -b [remote_feature_branch]         | Creates a local branch for the fetched content          |
 | git diff                                        | Lists diffences between remote and local repo           |
