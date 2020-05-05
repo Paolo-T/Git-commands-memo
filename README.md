@@ -41,7 +41,6 @@
 | git alias                                       | Creates command shortcut                                |
 | git log                                         | Inspecting                                              |
 |                                                 |                                                         |
-|                                                 |                                                         |
 | **Remove unwanted commit on repo**              |                                                         |
 | gch -b temp-branch                              | Check into temporary branch                             |
 | git reset --hard "Commit before the unwanted"   | The temp branch is now equal to the early commit        |
@@ -51,5 +50,5 @@
 | git push --force working branch                 |                                                         |
 
 
-
+**Links**
 ref: https://www.atlassian.com/git/tutorials/syncing/git-fetch
