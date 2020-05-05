@@ -40,9 +40,16 @@
 | **Useful**                                      |                                                         |
 | git alias                                       | Creates command shortcut                                |
 | git log                                         | Inspecting                                              |
+|                                                 |                                                         |
+|                                                 |                                                         |
+| **Remove unwanted commit on repo**              |                                                         |
+| gch -b temp-branch                              | Check into temporary branch                             |
+| git reset --hard "Commit before the unwanted"   | The temp branch is now equal to the early commit        |
+| git cherry-pick "Commit with latest good code"  | "cherry-picked" commit we did want back onto the branch |
+| gch "Original branch"                           | Check out in to working Branch                          |
+| git reset --hard temp-branch                    | Makes working branch equal to temp branch               |
+| git push --force working branch                 |                                                         |
 
 
-
-git checkout -b
 
 ref: https://www.atlassian.com/git/tutorials/syncing/git-fetch
