@@ -48,7 +48,7 @@
 | gch "Original branch"                           | Check out in to working Branch                          |
 | git reset --hard temp-branch                    | Makes working branch equal to temp branch               |
 | git push --force working branch                 |                                                         |
-
+| git reset <file>                                | Unstage file                                            |
 
 **Links**
 ref: https://www.atlassian.com/git/tutorials/syncing/git-fetch
